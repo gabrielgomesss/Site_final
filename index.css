@@ -16,7 +16,7 @@ body{
 }
 .parallax{
     width: 100vw;
-    background-image: url(/imagem/laptop-2838921_960_720.jpeg);
+    background-image: url(/SiteDev/imagens_site/laptop-2838921_960_720.jpeg);
     min-height: 70vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -81,7 +81,7 @@ a{
 /* Meus Trabalhos  */
 
 .meus_trabalhos-container{
-    background-image: url(/imagem/startup-594090_960_720.jpeg);
+    background-image: url(/SiteDev/imagens_site/startup-594090_960_720.jpeg);
     background-repeat: no-repeat;
     background-blend-mode: soft-light;
     background-size: cover;
