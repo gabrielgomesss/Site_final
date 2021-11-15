@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,100&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
 .parallax{
     width: 100vw;
-    background-image: url(/imagem/laptop-2838921_960_720.jpeg);
+    background-image: url(/SiteDev/imagens_site/laptop-2838921_960_720.jpeg);
     min-height: 30vh;
     background-attachment: fixed;
     background-size: contain;
@@ -27,7 +34,8 @@ body{
     /* align-items: left; */
     justify-content: space-around 100px ;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    translate: -5% 40%;
 }
 
 /* Sobre Mim  */
@@ -39,15 +47,15 @@ body{
 }
 #titulo_sobre{
     font-size: 40px;
-    translate: 0% 5vh;
+    translate: 0% 1vh;
     transition: ease 1.5s;
 }
 #txt_sobre{
     font-size: 15px;
-    translate: 0% 15vh;
+    translate: 0% 5vh;
     transition: ease 1.5s;
 }
-.btn_saba_mais-container{
+/* .btn_saba_mais-container{
     width: 33vw;
     height: 5vh;
     translate: 0vw 18vh;
@@ -56,7 +64,7 @@ body{
     background-color: #eee;
     border-radius: 7px 7px 7px 7px;
     transition: ease 1.5s;
-}
+} */
 /* .btn_saba_mais-container:hover{
     cursor: pointer;
     background-color: rgb(196, 193, 193);
@@ -64,7 +72,7 @@ body{
 } */
 /* Trabalhos */
 .meus_trabalhos-container{
-    background-image: url(/imagem/startup-594090_960_720.jpeg);
+    background-image: url(/SiteDev/imagens_site/startup-594090_960_720.jpeg);
     background-repeat: no-repeat;
     background-blend-mode: soft-light;
     background-size: cover;
@@ -74,13 +82,13 @@ body{
     height: 60vh;
 }
 #titulo_trabalho{
-    translate: 0% 5vh;
+    translate: 0% 1vh;
     font-size: 40px;
     transition: ease 1.5s;
 }
 #txt_trabalho{
     font-size: 15px;
-    translate: 0% 15vh;
+    translate: 0% 5vh;
     transition: ease 1.5s;
 }
 
@@ -93,13 +101,13 @@ body{
     height: 60vh;
 }
 #titulo_contato{
-    translate: 0% 5vh;
+    translate: 0% 1vh;
     font-size: 40px;
     transition: ease 1.5s;
 }
 #txt_contato{
     font-size: 15px;
-    translate: 0% 15vh;
+    translate: 0% 5vh;
     transition: ease 1.5s;
 }
 .insta{
@@ -125,72 +133,51 @@ body{
 
 /* Feedbacks */
 
+.carousel-item{
+    background-color: #777;
+    color: black;
+    height: 50vh;
+}
+.overlay-image{
+    background-image: url(/SiteDev/imagens_site/startup-4859737_960_720.jpeg);
+    background-color: #000;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    translate: 0% 5vh;
+    font-family: 'Work Sans', sans-serif;
+}
+
 .testemunhas-container{
     text-align: center;
     display: flex;
     width: 100vw;
-    height: 60vh;
     background-color: #eee;
     justify-content: space-evenly;
 }
-
-#titulo-testemunhas{
+.txt-comentario , .nome-comentario{
+    color: black;
+    font-weight: lighter;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    translate: 0% 10vh;
+}
+#titulo-feedback{
     text-align: center;
-    position: absolute;
-    translate: 0% 5vh;
-    font-size: 40px;
-    transition: ease 1.5s;
+    translate: 0% 17vh;
+    font-size: 2rem;
 }
 
-#txt-feedback{
-    text-align: center;
-    justify-content: center;
-    translate: 0vw 22vh;
-    font-size: 12px;
+/* Carousel */
+#carouselExampleCaptions{
+    translate: 0% 20vh;
 }
-
-
-#foto-pessoa{
-    height: 5vh;
-    width: 10vw;
-    border-radius: 50%;
-}
-#pessoa1{
-    background-image: url(/imagem/startup-4859737_960_720.jpeg);
-    background-size: 400px;
-    width: 50vw;
-    height: 20vh;
-    background-position: -145vw 2vh;
-    translate: 0vw 15vh;
-    transition: ease-in-out 1.5s;
-}
-#pessoa2{
-    background-image: url(/imagem/startup-4859737_960_720.jpeg);
-    background-size: 400px;
-    width: 50vw;
-    height: 20vh;
-    background-position: -145vw 2vh;
-    translate: 0vw 15vh;
-    transition: ease-in-out 1.5s;
-}
-#pessoa3{
-    background-image: url(/imagem/startup-4859737_960_720.jpeg);
-    background-size: 400px;
-    width: 50vw;
-    height: 20vh;
-    background-position: -145vw 2vh;
-    translate: 0vw 15vh;
-    transition: ease-in-out 1.5s;
-}
-
 
 /* Footer */
-
-
 #final{
     width: 100vw;
-    height: 10vh;
+    height: 25vh;
     text-align: center;
     align-items: center;
-
+    translate: 0% 25vh;
 }
