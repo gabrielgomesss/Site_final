@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,100&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+/* .foto_inicio{
+    width: 100vw;
+    height: 85vh;
+    -webkit-box-reflect: below -58% linear-gradient(to bottom, rgba(0,0,0,0.0),rgba(0,0,0,0.4));
+} */
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.parallax{
+    width: 100vw;
+    background-image: url(/imagem/laptop-2838921_960_720.jpeg);
+    min-height: 70vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* -webkit-box-reflect: below -40% linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4)); */
+}
+
+/* Navbar */
+.navbar-container{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0,0,0,0.8);
+    opacity: 0.95;
+    font-size: 18px;
+}
+a{
+    color: #eee;
+    font-style: normal;
+    text-decoration: none;
+}
+#dados_navbar{
+    position: top;
+    color: #eee;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+    translate: 0% 40%;
+    
+}
+.sobre_mim-container{
+    text-align: center;
+    width: 100vw;
+    height: 60vh;
+}
+#titulo_sobre{
+    font-size: 50px;
+    translate: 0% 5vh;
+    transition: ease 1.5s;
+}
+#txt_sobre{
+    font-size: 20px;
+    translate: 0% 15vh;
+    transition: ease 1.5s;
+}
+.btn_saba_mais-container{
+    width: 20vw;
+    height: 5vh;
+    translate: 0% 25vh;
+    font-size: 20px;
+    background-color: #eee;
+    opacity: 35%;
+    border-radius: 9px 9px 9px 9px;
+    transition: ease 1.5s;
+}
+/* .btn_saba_mais-container:hover{
+    cursor: pointer;
+    background-color: rgb(196, 193, 193);
+    opacity: 100%;
+} */
+
+/* Meus Trabalhos  */
+
+.meus_trabalhos-container{
+    background-image: url(/imagem/startup-594090_960_720.jpeg);
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    width: 100vw;
+    height: 60vh;
+}
+#titulo_trabalho{
+    translate: 0% 5vh;
+    font-size: 50px;
+    transition: ease 1.5s;
+}
+#txt_trabalho{
+    font-size: 20px;
+    translate: 0% 15vh;
+    transition: ease 1.5s;
+}
+
+/* Contatos */
+
+.contato-container{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    width: 100vw;
+    height: 60vh;
+}
+#logos-click{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    translate: 0vw 30vh;
+    width: 100vw;
+    height: 5vh;
+    /* opacity: 15%; */
+    transition: ease 1.5s;
+}
+
+#titulo_contato{
+    translate: 0% 5vh;
+    font-size: 50px;
+    transition: ease 1.5s;
+}
+#txt_contato{
+    font-size: 20px;
+    translate: 0% 15vh;
+    transition: ease 1.5s;
+}
+.insta{
+    transition: ease 1.5s;
+    opacity: 15%;
+    width: 3vw;
+    height: 5vh;
+    cursor: pointer;
+}
+
+#zap{
+    transition: ease 1.5s;
+    opacity: 15%;
+    cursor: pointer;
+}
+#email{
+    transition: ease 1.5s;
+    opacity: 15%;
+    width: 3vw;
+    height: 5vh;
+}
+.insta:hover , #zap:hover , #email:hover{
+    transition: ease 1.5s;
+    opacity: 100%;
+}
+/* Feedbacks */
+.testemunhas-container{
+    text-align: center;
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    background-color: #eee;
+    justify-content: space-evenly;
+}
+.txt-comentario , .nome-comentario{
+    color: black;
+    font-weight: lighter;
+    font-family: 'Work Sans', sans-serif;
+}
+#titulo-feedback{
+    text-align: center;
+    translate: 0% 5vh;
+}
+
+/* Carousel */
+#carouselExampleCaptions{
+    translate: 0% 5vh;
+}
+
+/* Footer */
+#final{
+    width: 100vw;
+    height: 12vh;
+    text-align: center;
+    align-items: center;
+    translate: 0% 9vh;
+}

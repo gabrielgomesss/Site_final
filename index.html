@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="/Site_teste/mobile.css">
+    <title>Gabriel Ribeiro Web Developer</title>
+</head>
+<style>
+    .carousel-item{
+        background-color: #777;
+        color: black;
+        height: 32rem;
+    }
+    .overlay-image{
+        background-image: url(/imagem/startup-4859737_960_720.jpeg);
+        background-color: #000;
+        opacity: 0.5;
+    }
+</style>
+<script>
+    function sendEmail(){
+        window.location.assign("mailto:gabriel.gomesss@hotmail.com")
+    }
+</script>
+<body>
+    <nav class="navbar-container">
+            <ul id="dados_navbar">
+                <a href="#titulo_sobre"><li>Sobre Mim</li></a>
+                <a href="#titulo_trabalho"><li>Meus Projetos</li></a>
+                <a href="#titulo_contato"><li>Contato</li></a>
+            </ul>
+    </nav>
+    <div class="parallax"></div>
+    <div class="sobre_mim-container">
+        <h1 id="titulo_sobre">Quem Sou eu</h1>
+        <p id="txt_sobre">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos porro ea fugiat, illum nostrum tempora voluptatem repellat accusamus exercitationem id totam nobis mollitia libero suscipit, eum minus debitis, modi expedita natus laudantium. Reprehenderit minima ipsum, quae in ullam deleniti laboriosam exercitationem aliquam laborum nostrum ea dignissimos dolorum possimus temporibus perferendis!</p>
+        <!-- <button class="btn_saba_mais-container"><div id="saiba-mais"><p>Saiba mais</p></div></button> -->
+    </div>
+    <div class="meus_trabalhos-container">
+        <h1 id="titulo_trabalho">Meus Trabalhos</h1>
+        <p id="txt_trabalho">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos porro ea fugiat, illum nostrum tempora voluptatem repellat accusamus exercitationem id totam nobis mollitia libero suscipit, eum minus debitis, modi expedita natus laudantium. Reprehenderit minima ipsum, quae in ullam deleniti laboriosam exercitationem aliquam laborum nostrum ea dignissimos dolorum possimus temporibus perferendis!</p>
+        <!-- <button class="btn_saba_mais-container">Saiba mais</button> -->
+    </div>
+    <div class="contato-container">
+        <h1 id="titulo_contato">Contato</h1>
+        <p id="txt_contato">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos porro ea fugiat, illum nostrum tempora voluptatem repellat accusamus exercitationem id totam nobis mollitia libero suscipit, eum minus debitis, modi expedita natus laudantium. Reprehenderit minima ipsum, quae in ullam deleniti laboriosam exercitationem aliquam laborum nostrum ea dignissimos dolorum possimus temporibus perferendis!</p>
+        <div id="logos-click">
+            <img class="insta" src="/imagem/5ecec78673e4440004f09e77" onclick="window.open('https://www.instagram.com/gabrielgome.sss/')">
+            <img src="/imagem/outline_whatsapp_black_24dp.png" alt="" id="zap" onclick="window.open('https://wa.me/5511968387267?text=Olá%20gostaria%20de%20uma%20informação.')">
+            <img src="/imagem/outline_email_black_24dp.png" alt="" id="email" onclick="sendEmail()">
+        </div>
+    </div>
+
+<!-- Carrousel -->
+<h5 id="titulo-feedback" style="font-size: 3rem;">Nossos Feedbacks</h5>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+                <div class="overlay-image">
+                    <img src="/imagem/startup-4859737_960_720.jpeg" class="d-block w-100" alt="">
+                </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="nome-comentario">Second slide label</h5>
+                <p class="txt-comentario">Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-image">
+                <img src="/imagem/startup-4859737_960_720.jpeg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="nome-comentario">Second slide label</h5>
+              <p class="txt-comentario">Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay-image">
+                <img src="/imagem/startup-4859737_960_720.jpeg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="nome-comentario">Second slide label</h5>
+                <p class="txt-comentario">Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- Footer -->
+
+    <footer id="final">
+        <h5 id="disclaimer">Todos os direitos reservados</h5><br>
+        <h5>Desenvolvido por Gabriel Ribeiro web developer</h5>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</body>
+</html>
