@@ -16,7 +16,7 @@ body{
 }
 .parallax{
     width: 100vw;
-    background-image: url(/SiteDev/imagens_site/laptop-2838921_960_720.jpeg);
+    background-image: url(/imagens_site/laptop-2838921_960_720.jpeg);
     min-height: 70vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -47,22 +47,24 @@ a{
     translate: 0% 40%;
     
 }
+/* Sobre Mim */
 .sobre_mim-container{
     text-align: center;
     width: 100vw;
     height: 60vh;
 }
 #titulo_sobre{
-    font-size: 50px;
+    font-size: 55px;
     translate: 0% 5vh;
     transition: ease 1.5s;
 }
 #txt_sobre{
-    font-size: 20px;
-    translate: 0% 15vh;
+    font-size: 25px;
+    width: 80%;
+    translate: 10% 15vh;
     transition: ease 1.5s;
 }
-.btn_saba_mais-container{
+/* .btn_saba_mais-container{
     width: 20vw;
     height: 5vh;
     translate: 0% 25vh;
@@ -71,7 +73,7 @@ a{
     opacity: 35%;
     border-radius: 9px 9px 9px 9px;
     transition: ease 1.5s;
-}
+} */
 /* .btn_saba_mais-container:hover{
     cursor: pointer;
     background-color: rgb(196, 193, 193);
@@ -81,7 +83,7 @@ a{
 /* Meus Trabalhos  */
 
 .meus_trabalhos-container{
-    background-image: url(/SiteDev/imagens_site/startup-594090_960_720.jpeg);
+    background-image: url(/imagens_site/startup-594090_960_720.jpeg);
     background-repeat: no-repeat;
     background-blend-mode: soft-light;
     background-size: cover;
@@ -92,12 +94,13 @@ a{
 }
 #titulo_trabalho{
     translate: 0% 5vh;
-    font-size: 50px;
+    font-size: 55px;
     transition: ease 1.5s;
 }
 #txt_trabalho{
-    font-size: 20px;
-    translate: 0% 15vh;
+    width: 80%;
+    font-size: 25px;
+    translate: 10% 15vh;
     transition: ease 1.5s;
 }
 
@@ -125,11 +128,11 @@ a{
 
 #titulo_contato{
     translate: 0% 5vh;
-    font-size: 50px;
+    font-size: 55px;
     transition: ease 1.5s;
 }
 #txt_contato{
-    font-size: 20px;
+    font-size: 25px;
     translate: 0% 15vh;
     transition: ease 1.5s;
 }
@@ -170,6 +173,13 @@ a{
     font-weight: lighter;
     font-family: 'Work Sans', sans-serif;
 }
+
+#foto-trabalho1{
+    width: 70vw;
+    height: 65vh;
+    image-resolution: 5000px;
+}
+
 #titulo-feedback{
     text-align: center;
     font-size: 3rem;
