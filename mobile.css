@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,100&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.parallax{
+    width: 100vw;
+    background-image: url(/SiteDev/imagens_site/laptop-2838921_960_720.jpeg);
+    min-height: 30vh;
+    background-attachment: fixed;
+    background-size: contain;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/* Navbar */
+.navbar{
+    position: fixed;
+    width: 100vw;
+    height: 5vh;
+    background-color: #eee;
+    opacity: 0.95;
+    border: solid 2px;
+    border-color: lightgray;
+
+}
+#dados_navbar{
+    color: rgb(51, 50, 50);
+    font-weight: bold;
+    /* align-items: left; */
+    justify-content: space-around 100px ;
+    list-style: none;
+    font-size: 1rem;
+    translate: -5% 40%;
+}
+
+/* Sobre Mim  */
+
+.sobre_mim-container{
+    text-align: center;
+    width: 100vw;
+    height: 60vh;
+}
+#titulo_sobre{
+    font-size: 40px;
+    translate: 0% 1vh;
+    transition: ease 1.5s;
+}
+#txt_sobre{
+    font-size: 15px;
+    translate: 0% 5vh;
+    transition: ease 1.5s;
+}
+/* .btn_saba_mais-container{
+    width: 33vw;
+    height: 5vh;
+    translate: 0vw 18vh;
+    opacity: 100%;
+    font-size: 20px;
+    background-color: #eee;
+    border-radius: 7px 7px 7px 7px;
+    transition: ease 1.5s;
+} */
+/* .btn_saba_mais-container:hover{
+    cursor: pointer;
+    background-color: rgb(196, 193, 193);
+    opacity: 100%;
+} */
+/* Trabalhos */
+.meus_trabalhos-container{
+    background-image: url(/SiteDev/imagens_site/startup-594090_960_720.jpeg);
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    width: 100vw;
+    height: 60vh;
+}
+#titulo_trabalho{
+    translate: 0% 1vh;
+    font-size: 40px;
+    transition: ease 1.5s;
+}
+#txt_trabalho{
+    font-size: 15px;
+    translate: 0% 5vh;
+    transition: ease 1.5s;
+}
+
+/* Contato */
+
+.contato-container{
+    text-align: center;
+    background-color: white;
+    width: 100vw;
+    height: 60vh;
+}
+#titulo_contato{
+    translate: 0% 1vh;
+    font-size: 40px;
+    transition: ease 1.5s;
+}
+#txt_contato{
+    font-size: 15px;
+    translate: 0% 5vh;
+    transition: ease 1.5s;
+}
+.insta{
+    width: 9vw;
+    height: 5vh;
+    translate: -2vw -10vh;
+}
+#zap{
+    translate: 2vw -10vh;
+    cursor: pointer;
+}
+#email{
+    cursor: pointer;
+    width: 9vw;
+    height: 5vh;
+    translate: 5vw -10vh;
+}
+
+.insta:hover , #zap:hover , #email:hover{
+    transition: ease 1.5s;
+    opacity: 100%;
+}
+
+/* Feedbacks */
+
+.carousel-item{
+    background-color: #777;
+    color: black;
+    height: 50vh;
+}
+.overlay-image{
+    background-image: url(/SiteDev/imagens_site/startup-4859737_960_720.jpeg);
+    background-color: #000;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    translate: 0% 5vh;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.testemunhas-container{
+    text-align: center;
+    display: flex;
+    width: 100vw;
+    background-color: #eee;
+    justify-content: space-evenly;
+}
+.txt-comentario , .nome-comentario{
+    color: black;
+    font-weight: lighter;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    translate: 0% 10vh;
+}
+#titulo-feedback{
+    text-align: center;
+    translate: 0% 17vh;
+    font-size: 2rem;
+}
+
+/* Carousel */
+#carouselExampleCaptions{
+    translate: 0% 20vh;
+}
+
+/* Footer */
+#final{
+    width: 100vw;
+    height: 25vh;
+    text-align: center;
+    align-items: center;
+    translate: 0% 25vh;
+}
