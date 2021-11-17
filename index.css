@@ -175,7 +175,21 @@ a{
 #carouselExampleCaptions{
     translate: 0% 5vh;
 }
-
+#foto-trabalho1{
+    width: 100vw;
+    height: 65vh;
+    translate: 0% 0%;
+}
+#foto-trabalho2{
+    width: 100vw;
+    height: 65vh;
+    translate: 0% 0vh;
+}
+#foto-trabalho3{
+    width: 100vw;
+    height: 65vh;
+    translate: 0% 0vh;
+}
 /* Footer */
 #final{
     width: 100vw;

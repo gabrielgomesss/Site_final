@@ -152,11 +152,17 @@ body{
 #foto-trabalho1{
     width: 100vw;
     height: 40vh;
+    translate: 0% 0%;
 }
-#foto-trabalho2 , #foto-trabalho3{
+#foto-trabalho2{
     translate: 0% 3vh;
 }
+#foto-trabalho3{
+    translate: 0% 5vh;
+}
+
 /* Footer */
+
 #final{
     width: 100vw;
     height: 20vh;
