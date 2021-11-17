@@ -155,10 +155,13 @@ body{
     translate: 0% 0%;
 }
 #foto-trabalho2{
-    translate: 0% 3vh;
+    width: 100vw;
+    height: 65vh;
+    translate: 0% 0vh;
 }
 #foto-trabalho3{
-    translate: 0% 5vh;
+    width: 100vw;
+    height: 40vh;
 }
 
 /* Footer */
