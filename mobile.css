@@ -151,7 +151,6 @@ body{
 }
 #foto-trabalho1{
     width: 100vw;
-    height: 40vh;
     translate: 0% 0%;
 }
 #foto-trabalho2{
@@ -160,7 +159,6 @@ body{
 }
 #foto-trabalho3{
     width: 100vw;
-    height: 40vh;
 }
 
 /* Footer */
