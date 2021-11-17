@@ -100,17 +100,17 @@ body{
 .insta{
     width: 9vw;
     height: 5vh;
-    translate: -2vw -17vh;
+    translate: -2vw -15vh;
 }
 #zap{
-    translate: 2vw -17vh;
+    translate: 2vw -15vh;
     cursor: pointer;
 }
 #email{
     cursor: pointer;
     width: 9vw;
     height: 5vh;
-    translate: 5vw -17vh;
+    translate: 5vw -15vh;
 }
 
 .insta:hover , #zap:hover , #email:hover{
