@@ -43,7 +43,7 @@ body{
 .sobre_mim-container{
     text-align: center;
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
 }
 #titulo_sobre{
     font-size: 40px;
@@ -52,7 +52,7 @@ body{
 }
 #txt_sobre{
     font-size: 17px;
-    translate: 10% 5vh;
+    translate: 10vw 5vh;
     transition: ease 1.5s;
 }
 
@@ -66,7 +66,7 @@ body{
     text-align: center;
     background-color: rgb(233, 233, 233);
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
 }
 #titulo_trabalho{
     translate: 0% 1vh;
@@ -75,7 +75,7 @@ body{
 }
 #txt_trabalho{
     font-size: 17px;
-    translate: 10% 5vh;
+    translate: 10vw 5vh;
     transition: ease 1.5s;
 }
 
@@ -85,7 +85,7 @@ body{
     text-align: center;
     background-color: white;
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
 }
 #titulo_contato{
     translate: 0% 1vh;
@@ -100,17 +100,17 @@ body{
 .insta{
     width: 9vw;
     height: 5vh;
-    translate: -2vw -10vh;
+    translate: -2vw -17vh;
 }
 #zap{
-    translate: 2vw -10vh;
+    translate: 2vw -17vh;
     cursor: pointer;
 }
 #email{
     cursor: pointer;
     width: 9vw;
     height: 5vh;
-    translate: 5vw -10vh;
+    translate: 5vw -17vh;
 }
 
 .insta:hover , #zap:hover , #email:hover{
@@ -147,15 +147,14 @@ body{
 
 .carousel-item{
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
 }
 #foto-trabalho1{
     width: 100vw;
-    translate: 0% 0%;
 }
 #foto-trabalho2{
     width: 100vw;
-    translate: 0% 0vh;
+    translate: 0vw 0vh;
 }
 #foto-trabalho3{
     width: 100vw;
