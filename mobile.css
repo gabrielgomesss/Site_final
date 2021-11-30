@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,100&display=swap');
+@media all and (orientation: landscape) {}
 *{
     box-sizing: border-box;
     margin: 0%;
@@ -32,27 +33,30 @@ body{
 #dados_navbar{
     color: rgb(51, 50, 50);
     font-weight: bold;
-    justify-content: space-around 100px ;
+    justify-content: space-evenly;
     list-style: none;
     font-size: 1rem;
-    translate: -5% 40%;
+    
 }
 
 /* Sobre Mim  */
 
 .sobre_mim-container{
     text-align: center;
+    justify-content: center;
     width: 100vw;
     height: 50vh;
 }
 #titulo_sobre{
     font-size: 40px;
-    translate: 0% 1vh;
+    align-items: center;
+    text-align: center;
     transition: ease 1.5s;
 }
 #txt_sobre{
     font-size: 17px;
-    translate: 10vw 5vh;
+    text-align: center;
+    justify-content: center;
     transition: ease 1.5s;
 }
 
@@ -69,13 +73,16 @@ body{
     height: 50vh;
 }
 #titulo_trabalho{
-    translate: 0% 1vh;
+    
+    text-align: center;
+    justify-content: center;
     font-size: 40px;
     transition: ease 1.5s;
 }
 #txt_trabalho{
     font-size: 17px;
-    translate: 10vw 5vh;
+    text-align: center;
+    justify-content: center;
     transition: ease 1.5s;
 }
 
@@ -83,34 +90,44 @@ body{
 
 .contato-container{
     text-align: center;
+    align-items: center;
     background-color: white;
     width: 100vw;
     height: 50vh;
 }
 #titulo_contato{
-    translate: 0% 1vh;
+    text-align: center;
+    justify-content: center;
     font-size: 40px;
     transition: ease 1.5s;
 }
 #txt_contato{
     font-size: 17px;
-    translate: 0% 5vh;
+    text-align: center;
+    justify-content: center;
+    transition: ease 1.5s;
+}
+#logos-click{
+    display: flex;
+    align-content: center;
+    justify-content: space-between 100px;
+    margin-top: 10%;
+    width: 100vw;
+    height: 5vh;
     transition: ease 1.5s;
 }
 .insta{
     width: 9vw;
     height: 5vh;
-    translate: -2vw -15vh;
 }
 #zap{
-    translate: 2vw -15vh;
     cursor: pointer;
 }
 #email{
     cursor: pointer;
     width: 9vw;
     height: 5vh;
-    translate: 5vw -15vh;
+
 }
 
 .insta:hover , #zap:hover , #email:hover{
@@ -131,7 +148,7 @@ body{
     opacity: 0.5;
     background-repeat: no-repeat;
     background-size: 100vw;
-    translate: 0% 5vh;
+    
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -141,9 +158,6 @@ body{
 }
 
 /* Carousel */
-#carouselExampleCaptions{
-    translate: 0% 10vh;
-}
 
 .carousel-item{
     width: 100vw;
