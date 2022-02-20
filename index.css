@@ -81,7 +81,7 @@ a{
     font-size: 55px;
     text-align: center;
     margin-left: 2%;
-    margin-top: 20px;
+    margin-top: 30%;
     width: 100%;
     transition: ease 1.5s;
 }
@@ -91,6 +91,23 @@ a{
     text-align: center;
     transition: ease 1.5s;
 }
+.IconesTrabalhos{
+    display: flex;
+    margin-left: 20%;
+    margin-top: -7%;
+}
+#IconeTrabalho{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+#LinkTrabalho{
+    color: black;
+    display: flex;
+    margin-left: -10%;
+    margin-top: 10.5%;
+}
+
 /* Contatos */
 
 .contato-container{
