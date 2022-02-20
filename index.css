@@ -87,21 +87,22 @@ a{
 }
 #txt_trabalho{
     font-size: 25px;
-    margin: 10%;
+    margin: 5%;
     text-align: center;
     transition: ease 1.5s;
 }
 .IconesTrabalhos{
     display: flex;
     margin-left: 20%;
-    margin-top: -7%;
 }
 #IconeTrabalho{
+    cursor: pointer;
     width: 120px;
     height: 120px;
     border-radius: 10px;
 }
 #LinkTrabalho{
+    cursor: pointer;
     color: black;
     display: flex;
     margin-left: -10%;

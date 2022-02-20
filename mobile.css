@@ -84,6 +84,23 @@
         transition: ease 1.5s;
         margin-top: -0.2%;
     }
+    .IconesTrabalhos{
+        display: flex;
+        margin-left: 20%;
+        margin-top: -7%;
+    }
+    #IconeTrabalho{
+        display: flex;
+        width: 1px;
+        height: 1px;
+        border-radius: 10px;
+    }
+    #LinkTrabalho{
+        color: black;
+        display: flex;
+        margin-left: -10%;
+        margin-top: 10.5%;
+    }
     
     /* Contato */
     
