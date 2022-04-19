@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;1,100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scale: 1;
+}
+.BodyContent{
+    background-color: black;
+    display: block;
+}
+.MainPhotoBox{
+    width: 100vw;
+    height: 60vh;
+    background-color: black;
+}
+.MainPhoto{
+    width: 50%;
+    height: 60vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    opacity: 0.6;
+    animation: FadingMain 8s;
+    -webkit-box-reflect: below -23em linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5));
+}
+.MainText{
+    width: 45%;
+    margin-left: 25em;
+    animation: ApresentationText 6s;
+    font-size: 2rem;
+    margin-top: -12em;
+    color: rgb(79, 171, 236);
+}
+.MainText > h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8rem;
+}
+.MainText > p{
+    width: 90%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+@keyframes ApresentationText{
+    from {
+        transform: translateY(-13em);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(-10em);
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.MainPhotoBox >p {
+    width: 10%;
+    color: rgb(79, 171, 236);
+    margin-top: 2em;
+    margin-right: 15em;
+}
+@keyframes FadingMain{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 0.6;
+    }
+}
+@keyframes PullContent{
+    from{
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.MainContent{
+    display: block;
+    margin-top: 20em;
+    animation: PullContent 5.2s ease-in-out;
+}
+.Apresentation{
+    width: 100vw;
+    height: 60vh;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+.Apresentation> h1{
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(79, 171, 236);
+}
+.Apresentation > p{
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.PriceDownBox{
+    width: 100vw;
+    height: 60vh;
+    margin: 0 auto;
+    margin-top: 10em;
+}
+.PriceDownBox > h2{
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(79, 171, 236);
+}
+.PriceDownBox > p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    margin-top: 2em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.StoreBox{
+    display: block;
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: -5em;
+}
+.StoreBox > h2{
+    text-align: center;
+    font-size: 3.2rem;
+    color: rgb(79, 171, 236);
+    font-family: 'Bebas Neue', cursive;
+}
+.StoreBox > p{
+    width: 50%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.StoreBox > span{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 9em;
+    animation: Boucing 3s ease-in-out infinite;
+    
+}
+@keyframes Boucing{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.AppleStoreIcon{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15%;
+    cursor: pointer;
+    margin-left: 15em;
+}
+.GooglePlayIcon{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15%;
+    cursor: pointer;
+    margin-right: 15em;
+}
+.RightsBox{
+    display: block;
+    margin: 0 auto;
+    width: 100vw;
+    height: 20vh;
+    margin-top: 10em;
+}
+.RightsBox > img{
+    margin-top: 3em;
+    border-radius: 10px;
+    width: 175px;
+    height: 170px;
+    margin-left: 40%;
+}
+.RightsBox > a{
+    background-color: white;
+    color: black;
+    /* color: rgb(79, 171, 236); */
+    width: 10em;
+    height: 2.5em;
+    margin-top: 15em;
+    margin-left: 3em;
+    /* display: flex; */
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+footer{
+    width: 100vw;
+    height: 50px;
+    /* margin-top: 6em; */
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-bottom: 2em;
+}
+
+
+/*  */
+/* MOBILE */
+/*  */
+
+@media(max-width: 768px){
+    .MainPhotoBox{
+        background-color: black;
+        width: 100vw;
+        height: 40vh;
+        /* display: block; */
+    }
+    
+    .MainPhoto{
+        width: 100%;
+        height: auto;
+        background-position: 1em -0em;
+        animation: AnimationMobile 4s;
+        opacity: 1;
+    }
+    .MainText{
+        display: none;
+    }
+    .MainContent{
+        width: 100vw;
+        height: 100%;
+        display: block;
+        margin-top: 25em;
+    }
+    .Apresentation{
+        flex-direction: column;
+        background-color: black;
+        animation: AnimationPositionMobile 8s;
+    }
+    .Apresentation > h1{
+        color: rgb(79, 171, 236);
+        font-size: 2.5em;
+        justify-content: center;
+        font-family: 'Bebas Neue', cursive;
+        margin-top: -9em;
+        
+    }
+    .Apresentation > p{
+        color: white;
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+        font-size: 1em;
+        margin-top: 2em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        animation: AnimationMobile 6s;
+    }
+    @keyframes AnimationMobile{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    @keyframes AnimationPositionMobile{
+        from{
+            transform: scale(1);
+            opacity: 0;
+        }
+        to{
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+    .PriceDownBox{
+        display: block;
+        margin: 0 auto;
+        margin-top: 5em;
+        
+    }
+    .PriceDownBox > h2{
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 2.5em;
+        margin-bottom: 2rem;
+        color: rgb(79, 171, 236);
+    }
+    .PriceDownBox > p{
+        color: white;
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        font-size: 1em;
+        margin-top: 2em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        animation: AnimationMobile 8s;
+    }
+    .StoreBox{
+        display: block;
+        margin-top: -1em;
+    }
+    .StoreBox > h2{
+        display: flex;
+        justify-content: center;
+        font-size: 2.5em;
+        margin-bottom: 2rem;
+        color: rgb(79, 171, 236);
+    }
+    .StoreBox > P{
+        width: 80%;
+        color: white;
+        display: flex;
+        margin: 0 auto;
+        font-size: 1em;
+        margin-top: 2em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        animation: AnimationMobile 8s;
+    }
+    .StoreBox > span{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 7em;
+    }
+    .AppleStoreIcon{
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 30%;
+        cursor: pointer;
+    }
+    .GooglePlayIcon{
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 30%;
+        margin-left: 10%;
+        cursor: pointer;
+    }
+    .RightsBox{
+        display: block;
+        width: 100vw;
+        height: 20vh;
+        margin-top: 2em;
+    }
+    .RightsBox > h2{
+        width: 100vw;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .RightsBox > img{
+        margin-top: 3em;
+        border-radius: 10px;
+        width: 150px;
+        height: 150px;
+        margin-left: 30%;
+    }
+    .RightsBox > a{
+        display: flex;
+        margin-left: 31%;
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+    footer{
+        width: 100vw;
+        margin-top: 20em;
+        text-align: center;
+        font-size: 0.7rem;
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+    }
+    
+}
