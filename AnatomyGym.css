@@ -199,12 +199,10 @@
 .RightsBox > a{
     background-color: white;
     color: black;
-    /* color: rgb(79, 171, 236); */
     width: 10em;
     height: 2.5em;
     margin-top: 15em;
     margin-left: 3em;
-    /* display: flex; */
     font-size: 1.5rem;
     text-decoration: none;
     display: flex;
@@ -219,7 +217,6 @@
 footer{
     width: 100vw;
     height: 50px;
-    /* margin-top: 6em; */
     color: white;
     text-align: center;
     font-size: 0.7rem;
@@ -239,7 +236,6 @@ footer{
         background-color: black;
         width: 100vw;
         height: 40vh;
-        /* display: block; */
     }
     
     .MainPhoto{
@@ -369,7 +365,7 @@ footer{
         display: block;
         width: 100vw;
         height: 20vh;
-        margin-top: 2em;
+        margin-top: 7em;
     }
     .RightsBox > h2{
         width: 100vw;
@@ -378,24 +374,25 @@ footer{
         font-size: 3rem;
         font-family: 'Bebas Neue', cursive;
     }
-    .RightsBox > img{
-        margin-top: 3em;
-        border-radius: 10px;
-        width: 150px;
-        height: 150px;
-        margin-left: 30%;
-    }
     .RightsBox > a{
-        display: flex;
-        margin-left: 31%;
-        font-size: 1.3rem;
+        background-color: white;
+        color: black;
+        width: 10em;
+        height: 2.5em;
+        margin-left: 3em;
+        font-size: 1.5rem;
         text-decoration: none;
-        color: white;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
         font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        border-radius: 5px;
+        font-size: 1rem;
     }
     footer{
         width: 100vw;
-        margin-top: 20em;
         text-align: center;
         font-size: 0.7rem;
         display: block;
